@@ -104,6 +104,11 @@ The model is deployed as a REST API using FastAPI.
   "message": "Please consult a doctor for proper diagnosis."
 }
 ```
+## Limitations
+- Dataset skews toward older population (mean age 63)
+- Model may overestimate risk for younger individuals
+- Not intended for medical diagnosis
+
 ## ⚠️ Disclaimer
 This project is for **educational purposes only** and should not be used for medical diagnosis.
 ---
