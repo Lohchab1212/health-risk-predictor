@@ -85,6 +85,8 @@ Final ROC AUC after tuning: 0.822
 
 Logistic Regression selected as final model due to 
 consistency and reliability over more complex models.
+Despite XGBoost showing 0.96 AUC during cross validation, test evaluation revealed overfitting (0.82). Logistic Regression proved most reliable with consistent CV and test AUC of 0.822 — demonstrating that model complexity doesn't always mean better performance.
+
 ## ⚠️ Disclaimer
 This project is for **educational purposes only** and should not be used for medical diagnosis.
 ---
