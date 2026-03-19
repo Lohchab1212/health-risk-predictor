@@ -75,6 +75,16 @@ Best Parameters:
 - solver: liblinear
 
 Final ROC AUC after tuning: 0.822
+
+## Model Comparison
+| Model | CV AUC | Test AUC | Verdict |
+|---|---|---|---|
+| Logistic Regression | 0.823 | 0.822 | ✅ Best |
+| XGBoost | 0.960 | 0.820 | ❌ Overfitting |
+| Random Forest | 0.975 | - | ❌ Overfitting |
+
+Logistic Regression selected as final model due to 
+consistency and reliability over more complex models.
 ## ⚠️ Disclaimer
 This project is for **educational purposes only** and should not be used for medical diagnosis.
 ---
