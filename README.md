@@ -65,6 +65,16 @@ evaluating out model on the fake data. that gives us false results that would ne
 - Hyperparameter tuning
 - Build a web app using Flask/Streamlit
 - Deploy the model
+## Hyperparameter Tuning
+Used GridSearchCV with 5-fold cross validation across 30 
+parameter combinations.
+
+Best Parameters:
+- C: 0.1
+- max_iter: 100  
+- solver: liblinear
+
+Final ROC AUC after tuning: 0.822
 ## ⚠️ Disclaimer
 This project is for **educational purposes only** and should not be used for medical diagnosis.
 ---
