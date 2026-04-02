@@ -10,7 +10,7 @@ It is built as a learning project to understand the complete ML workflow which i
 ```bash
 Clone the repository
 git clone https://github.com/Lohchab1212/health-risk-predictor.git
-cd student-score-analysis
+cd health-risk-predictor
 ```
 ```bash
 Install required libraries
